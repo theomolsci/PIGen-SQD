@@ -909,17 +909,17 @@ if sampler_data_available == 'no':
         # Qiskit cloud
         from qiskit_ibm_runtime import QiskitRuntimeService
         print ("here")
-#        token = "4GlThgnqmAUKcBrlnArHHlDa7ZEZCLnk5LgkWazqDsWb" #chayan
-        token = "wHR5oZuIdOWxZeGLHffS2tlV-lBkfL1eCz9ZGv-Mbvbs" #rahul
+#        token = "xyz" #chayan
+        token = "xyz" #rahul
         QiskitRuntimeService.save_account(
             token=token,
             channel="ibm_cloud",  # `channel` distinguishes between different account types.
-            # instance= "crn:v1:bluemix:public:quantum-computing:us-east:a/c0b7b1c2856a414b976ee475de8be349:bfffa55a-20fb-4696-9e1f-368608641300::", # support-prems-us
-            # instance="crn:v1:bluemix:public:quantum-computing:us-east:a/7de46eff8d084e6bb2a37acbdd605485:2bf7cbd6-00d8-4d4a-939a-a76778ee0fab::", #Chayan, from research credit
-            # instance = "crn:v1:bluemix:public:quantum-computing:us-east:a/c0b7b1c2856a414b976ee475de8be349:bfffa55a-20fb-4696-9e1f-368608641300::",
-                       # "crn:v1:bluemix:public:quantum-computing:us-east:a/c0b7b1c2856a414b976ee475de8be349:bfffa55a-20fb-4696-9e1f-368608641300::", #Chayan from free 10mins
-            # instance = "crn:v1:bluemix:public:quantum-computing:us-east:a/7de46eff8d084e6bb2a37acbdd605485:ffa788af-6e28-40fc-ab88-ab71bb1c2702::", #from chayan_mbpt_rbm_sqd Flex plan
-            instance = "crn:v1:bluemix:public:quantum-computing:us-east:a/7de46eff8d084e6bb2a37acbdd605485:ffa788af-6e28-40fc-ab88-ab71bb1c2702::",#from chayan_mbpt_rbm_sqd Flex plan
+            # instance= "xyz", # support-prems-us
+            # instance="xyz", #Chayan, from research credit
+            # instance = "xyz",
+                       # "xyz", #Chayan from free 10mins
+            # instance = "xyz", #from chayan_mbpt_rbm_sqd Flex plan
+            instance = "xyz",#from chayan_mbpt_rbm_sqd Flex plan
             overwrite=True  # Only needed if you already have Cloud credentials.
         )
 
