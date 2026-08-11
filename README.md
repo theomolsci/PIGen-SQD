@@ -9,19 +9,5 @@ The steps and details to run the entire PIGen-SQD workflow:
   5. For RBM-driven generation, the following parameters can be tuned "en_conv_thresh =1e-5, rbm_training_iter = 3, n_gibbs_sampling = 1".
   6. The workflow given here is for H2O in 6-31G basis with bond-stretch factor 1.0.
  
-- NOTE: The code in this branch is not the optimized variant of the workflow. This can be used to re-generate the results of PIGen-SQD paper (https://iopscience.iop.org/article/10.1088/2058-9565/ae917f). A more optimized variant of the workflow would be uploaded soon. If you use the code or any of the data, please cite the paper with the following BibTEX information:
-- @article{Patra_2026,
-doi = {10.1088/2058-9565/ae917f},
-url = {https://doi.org/10.1088/2058-9565/ae917f},
-year = {2026},
-month = {aug},
-publisher = {IOP Publishing},
-volume = {11},
-number = {3},
-pages = {035075},
-author = {Patra, Chayan and Mondal, Dibyendu and Halder, Sonaldeep and Halder, Dipanjali and Laskar, Mostafizur Rahaman and Goel, Richa and Maitra, Rahul},
-title = {Accelerated quantum-centric supercomputing through perturbation-theoretic measures and generative machine learning},
-journal = {Quantum Science and Technology},
-abstract = {Quantum centric supercomputing (QCSC) framework, such as sample-based quantum diagonalization (SQD) holds immense promise toward achieving practical quantum utility to solve classically hard sampling problems in quantum chemistry. QCSC leverages quantum computers to perform the classically intractable task of sampling the dominant fermionic configurations from the Hilbert space that have substantial support to a target state, followed by Hamiltonian diagonalization on a classical processor. However, noisy quantum hardware produces erroneous samples upon measurements, making robust and efficient configuration-recovery strategies essential for scalable QCSC pipelines. Toward this, in this work, we introduce PIGen-SQD, an efficiently designed QCSC workflow that utilizes the capability of generative machine learning (ML) along with physics-informed configuration screening via implicit low-rank tensor decompositions for accurate fermionic state reconstruction. The physics-informed pruning is based on a class of efficient perturbative measures that, in conjunction with samples drawn from quantum hardware, provide a substantial overlap with the target state. This distribution induces an anchoring effect on the generative ML models to stochastically explore only the dominant sector of the Hilbert space for effective identification of additional important configurations in a self-consistent manner. Our numerical experiments performed on IBM Heron R2 and R3 quantum processors with up to 58 qubit experiments demonstrate this synergistic workflow produces compact, high-fidelity subspaces that substantially reduce diagonalization cost while maintaining chemical accuracy under strong electronic correlations. With such a concerted integration of classical many-body intuitions, generative ML and quantum computers as a sampling engine, PIGen-SQD offers a promising pathway toward accurate and systematically improvable quantum simulations on utility-scale quantum hardware.}
-}
+- NOTE: The code in this branch is not the optimized variant of the workflow. This can be used to re-generate the results of PIGen-SQD paper (https://iopscience.iop.org/article/10.1088/2058-9565/ae917f). A more optimized variant of the workflow would be uploaded soon. If you use the code or any of the data, please cite the paper: **Chayan Patra et al 2026 Quantum Sci. Technol. 11 035075**, **DOI: 10.1088/2058-9565/ae917f**
 
