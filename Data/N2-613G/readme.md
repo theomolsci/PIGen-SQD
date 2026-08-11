@@ -1,0 +1,1 @@
+PIGen-SQD data of different geometries of N2 in 6-31G basis. The R_eq is taken to be 1A in this case for convenience. Here, 2 core orbitals are frozen, resulting in 16 spatial orbitals and 10 electrons.
